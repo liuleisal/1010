@@ -162,10 +162,10 @@
       })
     },
     init: function(){
-      if(location.href.indexOf('https')>-1){
-        location.href = location.href.replace('https','http')
-        return
-      }
+      // if(location.href.indexOf('https')>-1){
+      //   location.href = location.href.replace('https','http')
+      //   return
+      // }
       this.wxShare()
       this.swiper()
       this.clickEvt()
