@@ -77,7 +77,7 @@
           carType:car
         }
         $.ajax({
-          url:'http://47.106.95.183:8082/api/enroll/audiEnroll',
+          url:'http://47.106.95.183:8082/api/enroll4/audiEnroll',
           type: "POST",
           dataType: "json",
           contentType: 'application/json; charset=utf-8', 
