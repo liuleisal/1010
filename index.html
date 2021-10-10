@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no,viewport-fit=cover"/>
+<meta content="always" name="referrer">
+
+<!-- seo 信息 -->
+<title>粤行 驭智驾</title>
+<meta name="keywords" content="奥迪汽车" />
+<meta name="description" content="奥迪汽车" />
+
+<!-- qq传链接抓取信息 -->
+<meta itemprop="name" content="奥迪汽车">
+
+
+<!-- 页面适配js -->
+<script type="text/javascript">
+(function(e,t){var i=document,n=window;var l=i.documentElement;var a,r;var d,s=document.createElement("style");var o;function m(){var i=l.getBoundingClientRect().width;if(!t){t=540}if(i>t){i=t}var n=i*100/e;s.innerHTML="html{font-size:"+n+"px;}"}a=i.querySelector('meta[name="viewport"]');r="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no,viewport-fit=cover";if(a){a.setAttribute("content",r)}else{a=i.createElement("meta");a.setAttribute("name","viewport");a.setAttribute("content",r);if(l.firstElementChild){l.firstElementChild.appendChild(a)}else{var c=i.createElement("div");c.appendChild(a);i.write(c.innerHTML);c=null}}m();if(l.firstElementChild){l.firstElementChild.appendChild(s)}else{var c=i.createElement("div");c.appendChild(s);i.write(c.innerHTML);c=null}n.addEventListener("resize",function(){clearTimeout(o);o=setTimeout(m,300)},false);n.addEventListener("pageshow",function(e){if(e.persisted){clearTimeout(o);o=setTimeout(m,300)}},false);if(i.readyState==="complete"){i.body.style.fontSize="16px"}else{i.addEventListener("DOMContentLoaded",function(e){i.body.style.fontSize="16px"},false)}})(750,750);
+</script>
+
+<!-- 公用重置样式 -->
+<link href="./css/base.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./css/swiper.min.css">
+<link rel="stylesheet" href="./css/animate.min.css">
+<!-- 自定义样式区域 -->
+<link href="./css/index.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="g-doc">
+<!-- 专题内容区域 S -->
+  <div class="swiper-container swiper-vertical">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide area1">
+        <div class="tit ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.1s"  id="ani"></div>
+        <div class="mess ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+        </div>
+      </div>
+      <div class="swiper-slide area2">
+        <div class="swiper-container swiper-car">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="car-con">
+                <div class="car-img">
+                  <img src="./images/p1-1.png" alt="">
+                </div>
+                <div class="car-img">
+                  <img src="./images/p1-2.png" alt="">
+                </div>
+                <div class="car-img">
+                  <img src="./images/p1-3.png" alt="">
+                </div>
+                <div class="car-img">
+                  <img src="./images/p1-4.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-car-pagination"></div>
+        </div>
+      </div>
+      <div class="swiper-slide area3">
+        <div class="swiper-container swiper-video">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="video-con">
+                <video id="video1" src="./video/video1.mp4" controls="controls"></video>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="video-con">
+                <video id="video2" src="./video/video2.mp4" controls="controls"></video>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="video-con">
+                <video id="video3" src="./video/video3.mp4" controls="controls"></video>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-car-pagination"></div>
+        </div>
+      </div>
+      <div class="swiper-slide area4">
+        <div class="title"></div>
+        <select class="car-sel" id="carsel">
+          <option value="1">奥迪A8L 21年型 50 TFSI 舒适型</option>
+          <option value="2">奥迪A8L 21年型 50 TFSI 豪华型</option>
+          <option value="3">奥迪A8L 21年型 55 TFSI 豪华型</option>
+          <option value="4">奥迪A8L 21年型 55 TFSI 尊贵型</option>
+        </select>
+        <div class="sel-con">
+          <div class="sel-item">
+            <div class="swiper-container swiper-bar">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img id="tab" src="./images/t1.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide area5">
+        <div class="form">
+          <div class="form-item">
+            <input id="name" placeholder="请输入你的名字" type="text">
+          </div>
+          <div class="form-item">
+            <input id="phone" placeholder="请输入你的联系方式" type="text">
+          </div>
+          <div class="form-item">
+            <select id="city">
+              <option value="广州">广州</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <select id="adr">
+              <option value="">请选择</option>
+              <option value="广东中奥">广东中奥</option>
+              <option value="广东君奥">广东君奥</option>
+              <option value="广州锦龙">广州锦龙</option>
+              <option value="广东粤奥">广东粤奥</option>
+              <option value="广州晨峰">广州晨峰</option>
+              <option value="广州南菱奥申">广州南菱奥申</option>
+              <option value="广东锦泰">广东锦泰</option>
+              <option value="广州广物君迪">广州广物君迪</option>
+              <option value="广州伟兴">广州伟兴</option>
+              <option value="广州奥德">广州奥德</option>
+              <option value="南菱奥欣">南菱奥欣</option>
+              <option value="广州和瑞">广州和瑞</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <select id="car">
+              <option value="">请选择</option>
+              <option value="奥迪A8L 21年型 50 TFSI 舒适型">奥迪A8L 21年型 50 TFSI 舒适型</option>
+              <option value="奥迪A8L 21年型 50 TFSI 豪华型">奥迪A8L 21年型 50 TFSI 豪华型</option>
+              <option value="奥迪A8L 21年型 55 TFSI 豪华型">奥迪A8L 21年型 55 TFSI 豪华型</option>
+              <option value="奥迪A8L 21年型 55 TFSI 尊贵型">奥迪A8L 21年型 55 TFSI 尊贵型</option>
+            </select>
+          </div>
+        </div>
+        <div class="sub" id="sub"></div>
+      </div>
+    </div>
+  </div>
+  <div class="music" id="musicCtr"></div>
+  <audio autoplay="autoplay" id="music" loop src="./video/music.mp3">
+    <source src="./video/music.mp3" type="audio/mp3"/>
+  </audio>
+<!-- 专题内容区域 E -->
+</div>
+
+
+
+<!--页面脚本区S-->
+<!--所有页面用到的js脚本都必须放到此位置，包括外链js和内嵌js-->
+<script src="./js/jq.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/swiper.animate.min.js"></script>
+<script src="./js/select.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+<script src="./js/main.js"></script>
+<script>
+   wx.ready(function() {
+      var title = "智慧旗帜,舒适和豪华双享受  肆意驾驭科技,尽享极致礼遇";
+      var dec='第130届广交会指定贵宾专用车 10月15日-19日诚邀莅临广交会展览馆奥迪展台与奥迪A8L共同品鉴驾驭明天的智慧'
+      var link = location.href
+      if(link.indexOf('index.html')>-1){
+        link = link.split('index.html')[0]
+      }
+      var imgUrl = `${link}images/post.jpeg`
+      //分享给朋友
+      wx.onMenuShareAppMessage({
+          title : title, // 分享标题
+          desc : dec, // 分享描述
+          link : link, // 分享链接
+          imgUrl : imgUrl, // 分享图标
+          type : 'link', // 分享类型,music、video或link，不填默认为link
+          success : function() {
+              // 用户确认分享后执行的回调函数
+          },
+          cancel : function() {
+              // 用户取消分享后执行的回调函数
+          }
+      });
+
+      wx.onMenuShareTimeline({
+          desc : dec, // 分享描述
+          title : title, // 分享标题
+          link : link, // 分享链接
+          imgUrl : imgUrl, // 分享图标
+          success : function() {
+              // 用户确认分享后执行的回调函数
+          },
+          cancel : function() {
+              // 用户取消分享后执行的回调函数
+          }
+      });
+
+    });
+</script>
+
+<!--页面脚本区E-->
+</body>
+</html>
